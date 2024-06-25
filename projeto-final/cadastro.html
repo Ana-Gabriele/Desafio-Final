@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="main-login">
+        <div class="login-esq">
+            <h1>Cadastre-se<br>Acesse sua biblioteca digital</h1>
+            <img src="glasses.svg" alt="Mulher lendo animação">
+        </div>
+        <div class="login-dir">
+            <div class="box-login">
+                <h1>CADASTRO</h1>
+                <form action="cadastro.php" method="post">
+                <div class="textfield">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" name="usuario" placeholder="Usuário" required>
+                </div>
+                <div class="textfield">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" placeholder="E-mail" required>
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" placeholder="Senha" required>
+                </div>
+                <div class="textfield">
+                    <label for="senhaConfir">Confirme sua senha</label>
+                    <input type="password" name="senhaConfirma" placeholder="Confirme sua senha" required>
+                </div>
+
+                <input type="submit" name="cadastrar" value="Cadastrar" class="btn-login">
+                </form>
+
+                <p>Já possui cadastro?<a class="linkCdt" href="index.html"> Entre</a></p>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
